@@ -33,40 +33,40 @@ se o teste falhar, economizando recursos com a asserção passe.
 
 ## Roadmap
 
-Introdução ao JUnit 5
-  O que é JUnit e por que usá-lo ✅
-  Configuração do ambiente (Maven) config plugin p/ run tests ✅
-  Gerar relatórios em HTML → (após executar mvn test, execute mvn surefire-report:report) ✅
-  Diferença entre os artefacts (API, Engine, Params e Aggregator) ✅ 
+Introdução ao JUnit 5 <br>
+ - O que é JUnit e por que usá-lo ✅ <br>
+ - Configuração do ambiente (Maven) config plugin p/ run tests ✅ <br>
+ - Gerar relatórios em HTML → (após executar mvn test, execute mvn surefire-report:report) ✅ <br>
+ - Diferença entre os artefacts (API, Engine, Params e Aggregator) ✅ <br>
 
-Anotações Básicas
-  @Test - Definir métodos de teste ✅
-  @BeforeEach e @AfterEach - Configurações antes e depois de cada teste ✅
-  @BeforeAll e @AfterAll - Configurações globais ✅
+Anotações Básicas <br>
+ - @Test - Definir métodos de teste ✅ <br>
+ - @BeforeEach e @AfterEach - Configurações antes e depois de cada teste ✅ <br>
+ - @BeforeAll e @AfterAll - Configurações globais ✅ <br>
 
-Asserções
-    assertEquals, assertTrue, assertNull, assertThrows, assertAll etc ✅
+Asserções <br>
+ - assertEquals, assertTrue, assertNull, assertThrows, assertAll etc ✅ <br>
 
-Testando Cenários
-  Testes parametrizados com @ParameterizedTest.
-  Uso de fontes: @ValueSource, @CsvSource, @MethodSource
+Testando Cenários <br>
+ - Testes parametrizados com @ParameterizedTest. <br>
+ - Uso de fontes: @ValueSource, @CsvSource, @MethodSource <br>
 
-Organização dos Testes
-  @DisplayName - Descrever testes de forma clara ✅
-  Agrupamento com @Nested.
-  Controle de execução com @Tag
+Organização dos Testes <br>
+ - @DisplayName - Descrever testes de forma clara ✅<br>
+ - Agrupamento com @Nested <br>
+ - Controle de execução com @Tag <br>
 
-Recursos Avançados
-  Condições de execução - @EnabledIf, @DisabledIf, @EnabledOnOs, etc. ✅
-  Tempo limite - @Timeout
+Recursos Avançados <br>
+ - Condições de execução - @EnabledIf, @DisabledIf, @EnabledOnOs, etc. ✅ <br>
+ - Tempo limite - @Timeout <br>
 
-Integração com Outras Ferramentas
-  Mocking (com Mockito)
+Integração com Outras Ferramentas <br>
+ - Mocking (com Mockito) <br>
 
-Boas Práticas
-  Isolamento dos testes ✅
-  Nomeação clara e organizada ✅
-  Evitar dependências entre testes 
+Boas Práticas <br>
+ - Isolamento dos testes ✅ <br>
+ - Nomeação clara e organizada ✅ <br>
+ - Evitar dependências entre testes <br>
 
 Exploração Extra
-  Extensões do JUnit 5 - Criar e usar @ExtendWith
+ - Extensões do JUnit 5 - Criar e usar @ExtendWith <br>
