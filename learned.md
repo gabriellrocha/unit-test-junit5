@@ -29,8 +29,10 @@ se o teste falhar, economizando recursos com a asserção passe.
 `assertThrowsExactly` - Não considera a hierarquia de herança
 - Passa no teste apenas se a exceção lançada for exatamente do tipo específicado
 
+---
 
-‘Roadmap’
+## Roadmap
+
 Introdução ao JUnit 5
   O que é JUnit e por que usá-lo ✅
   Configuração do ambiente (Maven) config plugin p/ run tests ✅
